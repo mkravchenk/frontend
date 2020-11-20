@@ -1,0 +1,15 @@
+.image {
+    height:  300px;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+@media print {
+    .image {
+        float: none;
+        height: 300px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+}

@@ -1,0 +1,19 @@
+input{
+    padding-left: 10px;
+    height: 2em;  
+}
+.one{
+    color: green;
+    width: 80%;
+}
+.one:hover {
+    color: red;
+}
+.two:hover {
+    color: red;
+    
+}
+.two {
+    color: green;
+    height: 32.5px;
+}

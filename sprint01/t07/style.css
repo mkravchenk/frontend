@@ -1,0 +1,8 @@
+.image {
+    padding-inline-start: 30%;
+    padding-top: 25%;
+}
+
+.image:hover {
+    transform: rotate(-45deg);
+}

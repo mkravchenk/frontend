@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+.subtopic {
+    border: solid black 1px;
+    padding: 2px;
+}
+
+img {
+    width: 30px;
+}
+
+.topic {
+    display: grid;
+    grid-gap: calc(2vw);
+    grid-template-columns: repeat(5,1fr);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .topic {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .topic {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .topic {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
